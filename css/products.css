@@ -1,0 +1,43 @@
+.table-striped>tbody>tr:nth-child(odd)>td{
+   background-color: #E9E9E9;
+ }
+.product-table{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.request-info a{color: #fff}
+.request-info a:hover{
+    text-decoration: none;
+    color: #94bceb;
+}
+.table-bordered>thead>tr>th {
+    border-bottom-width: 0px;
+}
+.table-striped>tbody>tr:nth-child(odd)>.request-info,
+.request-info{
+    background: #426084;
+    border-bottom: 1px solid #385271;
+    color: #fff;
+    width: 15%;
+    text-align: center;
+}
+.table-striped .request-info {border-bottom: 1px solid #385271;}
+.table>thead>tr>th {
+    background-color: #426084;
+    color: #fff;
+    border-right: 1px solid #6a899f;
+    text-align: center
+}
+.name{width: 25%;}
+.cas{width: 10%;text-align: center}
+.post{margin-top: 120px}
+.post .row{margin-top: 30px}
+.post-img img{width: 100%}
+.post-text{
+    padding: 0 5%
+}
+.supply{
+    position: absolute;
+    right: 90px;
+    top: 150px;
+}

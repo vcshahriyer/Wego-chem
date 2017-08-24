@@ -1,0 +1,179 @@
+
+a{text-decoration: none}
+li{list-style-type: none;}
+h3{color: #395b86 !important}
+.sub-heading{color: #395b86;font-size: 1.12em;}
+.right{ text-align:right;}
+
+/*   nav bar menue*/
+.top-nav{
+    background-color: #fff;
+    padding: 3px;
+    font-size: 95%;
+    position: sticky;
+}
+.navbar{ 
+    margin-bottom: 0 !important;
+    box-shadow: 0 -1px 11px #E0DFDF;
+    border-bottom: 1px;
+    border-bottom: 1px solid #ddd;
+}
+.bold{font-weight: bold;}
+.top-nav span{
+    padding: 0 15px;
+    border-right: 2px solid #3A5C87;
+    border-left: 2px solid #3A5C87;
+    margin-right: 10px;
+}
+.dropdown-menu,
+.dropdown-menu a{color: #fff}
+.dropdown-large{
+    position: static !important;
+}
+.dropdown-menu.dropdown-menu-large{background-color: #324c70}
+.larg-menue {
+    width: 80%;
+    margin: 0 auto;
+}
+.larg-menue a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.larg-menue a:hover{color: #016cf4;}
+.navbar-nav>li{ padding: 20px 0}
+.dropdown-menu li{padding: 8px 0;}
+.navbar-brand img{max-height: 55px;}
+
+/* ===  nav bar menue end  =====*/
+
+
+/*=====Hero section==========*/
+
+.hero-img{
+/*    background-image: linear-gradient(rgba(0, 0, 0, 0.18),rgba(0, 0, 0, 0.18)),url(../img/industry-406905_1920.jpg);*/
+    background-image: url(../img/front.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 87vh;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.hero-text{
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero-img h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.hero-text h2{font-size: 1.5em}
+.mybtn{ 
+    padding: 20px 10px;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.mybtn:hover a{text-decoration: none}
+#contact{ margin-top: 30px;}
+#contact a{color: #fff}
+
+/*Hero section end*/
+
+/*  about section*/
+.about-section{margin: 20px 0;}
+.about-section h3{
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.about-text{border-right: 1px dotted #ccc;padding-right: 20px;}
+
+/*======= Banner ===========*/
+.banner{
+    max-height: 150px;
+    background-color: #395b86;
+}
+.banner h2{
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 20px
+}
+
+.banner2{
+    background-image: url(../img/business.jpg);
+    height: 382px;
+}
+.banner2 h2{
+    margin-top: 10%;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*======== Footer ==========*/
+footer{
+    background-color: #324c70;
+    color: #fff;
+}
+footer a{color: #fff;}
+.footer_logo_big{
+    max-height: 29px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.our-partners a{
+    display: inline-block;
+    margin-right: 3%;
+}
+.our-partners a:last-child{margin-right: 0}
+.our-partners{
+    background: #E9E9E9;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}    
+.small_footer_text{
+    font-size: 10px;
+    margin: 8px 0 6px 0;
+    color: #ABABAB;
+}
+.footer_seo{
+    background-color: #fff;
+    margin-bottom: 15px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.footer_contact{
+    font-size: 13px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.footer_contact a{
+    font-size: 11px;
+    margin-top: 28px;
+}
+#shahriyer{
+    float: right;
+    margin-top: -20px;
+    font-size: 10px;
+}
+.social_img{
+    max-height: 19px;
+    margin: 12px 5px;
+}
+#footer-form{margin: 12px 0;}
+.footer-menue{padding-top: 15px}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .dropdown-menu-large{width: 100%}
+    
+}
